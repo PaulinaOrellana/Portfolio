@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto' , sans-serif;
+}
+.texthead {
+    letter-spacing: 0.5em;
+}
+.bg-element {
+    background-color: black;
+}
+
+/* #headname {
+    font-family: 'Ubuntu' , sans-serif;
+} */
+.bg-image {
+    background-image:url(../img/fondo-1.jpg);
+    height: 35rem;
+    background-position: center;
+    background-size: cover;
+}
+.my-picture {
+    max-height: 20em;
+}
+
+/* .item-self {
+    margin: 0 auto 0 auto;
+    text-align: center;
+} */
+/* .item-tech {
+    max-height: 20em;
+
+} */
+.item-tech img {
+    height: 5em;
+}
+.item-tech img:hover {
+    transform: rotate(35deg);
+    text-shadow: 1em;
+}
+.item-works {
+    max-height: 30em;
+}
+.item-works img {
+    max-height: 10em;
+}
+/* .item-contact {
+    background-color: black;
+} */
+/* .contact {
+    max-height: 2.5em;
+    margin: 0 3em 0 3em;
+} */
+.item-footer {
+    width: 100%;
+    max-height: 10em;
+}
