@@ -21,14 +21,16 @@
     height: 5em;
 }
 .item-tech img:hover {
-    transform: rotate(35deg);
+    transform: rotate(360deg);
     text-shadow: 1em;
+    transition: 1s;
 }
 .item-works {
     max-height: 30em;
 }
-.item-works img {
-    max-height: 10em;
+.item-works img:hover {
+    opacity: 0.5;
+    transition: 0.5s;
 }
 .item-footer {
     width: 100%;
