@@ -7,7 +7,6 @@
 .bg-element {
     background-color: black;
 }
-
 .bg-image {
     background-image:url(../img/fondo-1.jpg);
     height: 35rem;
@@ -25,11 +24,15 @@
     text-shadow: 1em;
     transition: 1s;
 }
+.item-portfolio {
+    background-color: black;
+
+}
 .item-works {
-    max-height: 30em;
+    max-height: 50em;
 }
 .item-works img:hover {
-    opacity: 0.5;
+    opacity: 0.2;
     transition: 0.5s;
 }
 .item-footer {
